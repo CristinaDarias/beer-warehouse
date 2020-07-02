@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <img src="{% static 'images/beer_default.jpeg' %}" style="width: 15rem">
+
+    <p>
+        {{ sample_var }}
+    </p>
+{% endblock %}
